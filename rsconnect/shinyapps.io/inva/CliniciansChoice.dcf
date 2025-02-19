@@ -1,0 +1,12 @@
+name: CliniciansChoice
+title: CliniciansChoice
+username: inva
+account: inva
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14045022
+bundleId: 9826058
+url: https://inva.shinyapps.io/CliniciansChoice/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
