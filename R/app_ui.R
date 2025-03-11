@@ -140,7 +140,7 @@ golem_add_external_resources <- function() {
     favicon(ext = "png"),
     bundle_resources(
       path = app_sys("app/www"),
-      app_title = "Clinicians Choice"
+      app_title = "Clinicians Choice Loupe Search Tool"
     )
     # Add here other external resources
     # for example, you can add shinyalert::useShinyalert()
