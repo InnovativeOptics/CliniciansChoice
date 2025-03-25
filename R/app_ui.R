@@ -9,7 +9,7 @@
 
 
 oem_data <- googlesheets4::read_sheet(sheet_id, sheet = "laser_info") %>%
-  filter(`Laser Mfg` == "Clinicians Choice")
+  filter(`Laser Mfg` == "Clinician's Choice")
 
 
 loupe_data <- googlesheets4::read_sheet(sheet_id, sheet = "Loupe_types", col_types = "c")
@@ -140,7 +140,7 @@ golem_add_external_resources <- function() {
     favicon(ext = "png"),
     bundle_resources(
       path = app_sys("app/www"),
-      app_title = "Clinicians Choice Loupe Search Tool"
+      app_title = "Clinician's Choice Loupe Search Tool"
     )
     # Add here other external resources
     # for example, you can add shinyalert::useShinyalert()

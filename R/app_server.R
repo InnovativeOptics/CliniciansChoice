@@ -29,7 +29,7 @@ our_data <- googlesheets4::read_sheet(sheet_id, sheet = "Lens_details") %>%
 
 
 oem_data <- googlesheets4::read_sheet(sheet_id, sheet = "laser_info") %>%
-  filter(`Laser Mfg` == "Clinicians Choice")
+  filter(`Laser Mfg` == "Clinician's Choice")
 
 
 app_server <- function(input, output, session) {
